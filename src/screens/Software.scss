@@ -1,0 +1,147 @@
+@use "../global" as *;
+
+.Software {
+  .banner {
+    width: 90vw;
+    height: calc(100vh - 100px);
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    img {
+      width: 100%;
+      height: calc(100vh - 200px);
+    }
+    h1 {
+      font-size: 64px;
+      font-family: $font-bold;
+      text-align: center;
+      line-height: 60px;
+      span {
+        color: $secondary2;
+        font-size: 45px;
+        line-height: 40px;
+      }
+    }
+  }
+
+  .content {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    width: 50vw;
+    margin: 200px auto;
+    position: relative;
+    img {
+      position: absolute;
+      width: 200px;
+      z-index: -1;
+      top: -120px;
+      left: -100px;
+    }
+  }
+
+  .services {
+    width: 80vw;
+    margin: auto;
+    .service {
+      .title {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        h1 {
+          position: absolute;
+          top: -80px;
+          left: -20px;
+          font-size: 98px;
+          font-family: $font-bold;
+          color: #ffebd9;
+          z-index: -1;
+        }
+        h2 {
+          @include gradientTextPrimary($primary2, $primary);
+          font-size: 56px;
+          line-height: 60px;
+          font-family: $font-bold;
+        }
+      }
+      .lists {
+        margin: 100px auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        .list {
+          background-color: $bg4;
+          padding: 15px;
+          border-radius: 200px;
+          border-top-left-radius: 50px;
+          width: 170px;
+          height: 170px;
+          div {
+            display: grid;
+            place-content: center;
+            width: max-content;
+            background-color: $bg3;
+            border-radius: 100px;
+            border-top-left-radius: 20px;
+            box-shadow: 2px 5px 30px rgb(255, 208, 182);
+            img {
+              width: 30px;
+              padding: 10px;
+            }
+          }
+          h4 {
+            @include gradientTextPrimary($primary, $primary3);
+            font-size: 15px;
+            font-family: $font;
+            line-height: 20px;
+            font-weight: 400;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .Software {
+    .banner {
+      img {
+        width: max-content;
+        max-width: 80vw;
+        height: 80%;
+      }
+      h1 {
+        font-size: 45px;
+        line-height: 45px;
+        span {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Software {
+    .content {
+      width: 85vw;
+      img {
+        width: 200px;
+        top: -120px;
+        left: -30px;
+      }
+      h4 {
+        font-size: small;
+      }
+    }
+  }
+}

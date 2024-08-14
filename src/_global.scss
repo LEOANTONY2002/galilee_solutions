@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "poppins-bold";
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "qwigley";
+  src: url("./assets/fonts/Qwigley-Regular.ttf");
+}
+
+// fonts
+$font: "Poppins";
+$font-bold: "Poppins-bold";
+$font-secondary: "qwigley";
+
+// colors
+$bg: #fffaf8;
+$bg2: #fcd6c238;
+$bg3: #ffe2d2;
+$bg4: #fff5ef;
+$text: rgb(0, 0, 0);
+$primary: #f05c00;
+$primary1: #fb7900;
+$primary2: #ff993a;
+$primary3: #ffeddc;
+$primary4: #ffece8;
+$secondary: #3e4444;
+$secondary2: #4f4e4e;
+$secondary3: #e2e2e2;
+$shadow: rgb(253, 214, 186);
+$shadow2: rgba(0, 0, 0, 0.086);
+$border1: #ffdacb;
+$border2: rgb(255, 107, 0, 0.26);
+
+@mixin flexCenter($direction) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
+@mixin gradientTextPrimary($color, $color2) {
+  background: linear-gradient(90deg, $color, $color2);
+  background-clip: text;
+  color: transparent;
+  width: max-content;
+  font-family: $font-bold;
+  font-size: 42px;
+  line-height: 42px;
+}

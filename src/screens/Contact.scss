@@ -1,0 +1,169 @@
+@use "../global" as *;
+
+.Contact {
+  .banner {
+    width: calc(100vw - 60px);
+    height: calc(100vh - 120px);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    background: linear-gradient(120deg, $primary2, $primary);
+    border-radius: 600px;
+    border-bottom-right-radius: 1000px;
+    div {
+      font-family: $font-bold;
+      margin-bottom: -100px;
+      h1 {
+        font-size: 90px;
+        line-height: 70px;
+        background: linear-gradient(120deg, $primary3, $primary2);
+        background-clip: text;
+        color: transparent;
+      }
+      span {
+        font-size: 90px;
+        line-height: 70px;
+        background: linear-gradient(
+          360deg,
+          rgba(246, 225, 201, 0.405),
+          rgba(255, 154, 60, 0.337),
+          transparent
+        );
+        background-clip: text;
+        color: transparent;
+        transform: scale(1, -1);
+        display: inline-block;
+      }
+    }
+    img {
+      max-width: 350px;
+      filter: drop-shadow(10px 70px 50px rgba(0, 0, 0, 0.274));
+    }
+  }
+
+  .reach {
+    width: 90vw;
+    margin: 100px auto;
+    font-family: $font-bold;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    h1 {
+      font-size: 64px;
+      line-height: 60px;
+      color: $primary2;
+    }
+    h3 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+  .links {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    a {
+      width: 100px;
+      height: 100px;
+      display: grid;
+      place-content: center;
+      background-color: #ffe9dc;
+      box-shadow: 10px 20px 40px #ff6a002f;
+      border-radius: 40px;
+      border-top-right-radius: 20px;
+    }
+  }
+
+  .address {
+    width: 80vw;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    .map {
+      display: grid;
+      place-content: center;
+      width: 40vw;
+      height: 40vw;
+      background-color: #ffe9dc;
+      box-shadow: 10px 20px 40px #ff6a0023;
+      border-radius: 400px;
+      border-top-right-radius: 200px;
+      img {
+        width: 100%;
+        max-width: 350px;
+        object-fit: contain;
+      }
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        img {
+          width: 40px;
+          padding: 20px;
+          display: grid;
+          place-content: center;
+          background-color: #ffe9dc;
+          box-shadow: 10px 20px 40px #ff6a002f;
+          border-radius: 40px;
+          border-top-right-radius: 20px;
+        }
+        h2 {
+          @include gradientTextPrimary($primary2, $primary);
+        }
+      }
+      .addr {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .Contact {
+    .banner {
+      flex-direction: column-reverse;
+      div {
+        margin: 0;
+        h1 {
+          font-size: 60px;
+          line-height: 50px;
+        }
+        span {
+          font-size: 60px;
+          line-height: 40px;
+        }
+      }
+      img {
+        max-width: 250px;
+      }
+    }
+
+    .address {
+      flex-direction: column;
+      .map {
+        width: 100%;
+        height: 400px;
+        img {
+          max-width: 250px;
+        }
+      }
+    }
+  }
+}
