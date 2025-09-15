@@ -44,12 +44,12 @@ const Footer = () => {
           </div>
           <div>
             <img src={Email} alt="" />
-            <span>email@gmail.com</span>
+            <span>info.galileesolution@gmail.com</span>
           </div>
           <div>
             <img src={Mobile} alt="" />
             <span>
-              +91 9443179119<p>+91 9445948557</p>
+              +91 89034 87557<p>+91 82202 28819</p>
             </span>
           </div>
         </div>

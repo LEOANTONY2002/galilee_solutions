@@ -86,45 +86,45 @@ export const about = {
     },
   ],
   director: {
-    name: "Sam Nimalan",
+    name: "Sam Gnana Nimalan",
     location: "Tiruchirappalli, India",
     icon: Location2,
     photo: Director,
     profession: {
       title: "Professional Background",
-      desc: "Sam Nimalan is a visionary leader and the driving force behind Galilee Solutions Private Limited. With extensive experience in biomedical equipment, software development, and financial services, Sam has been instrumental in steering the company towards innovation and excellence. His leadership is characterized by a commitment to integrity, quality, and customer-centricity, ensuring that Galilee Solutions consistently meets the highest standards of service and product delivery.",
+      desc: "Sam Gnana Nimalan is a visionary leader and the driving force behind Galilee Solutions Private Limited. With extensive experience in biomedical equipment, software development, and financial services, Sam has been instrumental in steering the company towards innovation and excellence. His leadership is characterized by a commitment to integrity, quality, and customer-centricity, ensuring that Galilee Solutions consistently meets the highest standards of service and product delivery.",
     },
     education: {
       title: "Education",
-      desc: "Sam Nimalan holds an advanced degree in Master of Computer Applications from Bharathidasan University, where he developed a strong foundation in both technical and managerial disciplines. This educational background has been pivotal in his ability to oversee the diverse operations of Galilee Solutions.",
+      desc: "Sam Gnana Nimalan holds an advanced degree in Master of Computer Applications from Bharathidasan University, where he developed a strong foundation in both technical and managerial disciplines. This educational background has been pivotal in his ability to oversee the diverse operations of Galilee Solutions.",
     },
     career: {
       title: "Career Highlights",
       desc: [
         {
           title: "Biomedical Equipment",
-          desc: "Under Sam Nimalan's guidance, Galilee Solutions has become a leader in providing high-quality medical diagnostics and healthcare solutions. His strategic vision has driven the development of innovative products that enhance patient care and support healthcare professionals in their mission to deliver exceptional care.",
+          desc: "Under Sam Gnana Nimalan's guidance, Galilee Solutions has become a leader in providing high-quality medical diagnostics and healthcare solutions. His strategic vision has driven the development of innovative products that enhance patient care and support healthcare professionals in their mission to deliver exceptional care.",
         },
         {
           title: "Software Products",
-          desc: "Sam Nimalan has spearheaded the company's foray into software and mobile app development. His focus on leveraging cutting-edge technologies and maintaining a customer-centric approach has resulted in the delivery of impactful, tailor-made software solutions that drive business efficiency and growth.",
+          desc: "Sam Gnana Nimalan has spearheaded the company's foray into software and mobile app development. His focus on leveraging cutting-edge technologies and maintaining a customer-centric approach has resulted in the delivery of impactful, tailor-made software solutions that drive business efficiency and growth.",
         },
         {
           title: "Financial Services",
-          desc: "With a deep understanding of the financial landscape, Sam Nimalan has positioned Galilee Solutions as a trusted partner for individuals and businesses seeking comprehensive financial solutions. His expertise in crafting tailored strategies ensures clients navigate their financial journeys with confidence and security.",
+          desc: "With a deep understanding of the financial landscape, Sam Gnana Nimalan has positioned Galilee Solutions as a trusted partner for individuals and businesses seeking comprehensive financial solutions. His expertise in crafting tailored strategies ensures clients navigate their financial journeys with confidence and security.",
         },
       ],
     },
     leadership: {
       title: "Leadership Style",
-      desc: "Sam Nimalan is known for his collaborative and innovative leadership style. He believes in fostering a culture of continuous improvement and empowering his team to achieve excellence. By maintaining open lines of communication and encouraging creative problem-solving, Sam ensures that Galilee Solutions remains at the forefront of industry advancements.",
+      desc: "Sam Gnana Nimalan is known for his collaborative and innovative leadership style. He believes in fostering a culture of continuous improvement and empowering his team to achieve excellence. By maintaining open lines of communication and encouraging creative problem-solving, Sam ensures that Galilee Solutions remains at the forefront of industry advancements.",
     },
     vision: {
       title: "Vision for the Future",
-      desc: "Sam Nimalan envisions Galilee Solutions as a trailblazer in delivering integrated solutions across biomedical, software, and financial sectors. His goal is to expand the company’s footprint globally, bringing cutting-edge technology and superior service to a broader audience. By staying true to the core values of integrity, innovation, customer focus, and excellence, Sam aims to lead Galilee Solutions to new heights of success and industry recognition.",
+      desc: "Sam Gnana Nimalan envisions Galilee Solutions as a trailblazer in delivering integrated solutions across biomedical, software, and financial sectors. His goal is to expand the company’s footprint globally, bringing cutting-edge technology and superior service to a broader audience. By staying true to the core values of integrity, innovation, customer focus, and excellence, Sam aims to lead Galilee Solutions to new heights of success and industry recognition.",
     },
     content:
-      "With Sam Nimalan at the helm, Galilee Solutions Private Limited is well-positioned to achieve its mission of delivering innovative, high-quality solutions that empower clients and drive industry transformation.",
+      "With Sam Gnana Nimalan at the helm, Galilee Solutions Private Limited is well-positioned to achieve its mission of delivering innovative, high-quality solutions that empower clients and drive industry transformation.",
   },
 };
 
@@ -220,9 +220,9 @@ export const software = {
 export const finance = {
   premier: {
     title: "Premier Financial Services",
-    desc: "Galilee Solutions is a premier financial services Private Limited dedicated to empowering individuals and businesses with innovative financial solutions. With a commitment to integrity, transparency, and excellence, we provide a comprehensive range of services designed to meet the diverse needs of our clients in an ever-evolving financial landscape.",
+    desc: "Galilee Solutions is a premier financial services Private Limited dedicated to empowering individuals and businesses with innovative financial services. With a commitment to integrity, transparency, and excellence, we provide a comprehensive range of services designed to meet the diverse needs of our clients in an ever-evolving financial landscape.",
   },
-  aim: "Our aim is to deliver tailored financial solutions that foster growth, security, and peace of mind for our clients. We strive to be a trusted partner, guiding our clients through every financial decision with expertise and care.",
+  aim: "Our aim is to deliver tailored financial services that foster growth, security, and peace of mind for our clients. We strive to be a trusted partner, guiding our clients through every financial decision with expertise and care.",
   strive:
     "strive to be a leading provider of financial services known for our innovative approach, exceptional customer service, and unwavering commitment to the success of our clients.",
   coreValues: [
@@ -253,28 +253,23 @@ export const contact = {
   links: [
     {
       icon: Email,
-      link: "/",
+      link: "mailto:info.galileesolution@gmail.com",
     },
-    ,
     {
       icon: Mobile,
-      link: "/",
+      link: "tel:+918903487557",
     },
     {
       icon: Facebook,
-      link: "/",
+      link: "https://www.facebook.com/share/172hDNGTJG/?mibextid=wwXIfr",
     },
     {
       icon: Instagram,
-      link: "/",
+      link: "https://www.instagram.com/samgnimalan?igsh=ejh6NjN2d2d2czZj&utm_source=qr",
     },
     {
       icon: LinkedIn,
-      link: "/",
-    },
-    {
-      icon: TwitterX,
-      link: "/",
+      link: "https://www.linkedin.com/in/sam-nimalan-2734412ab/?originalSubdomain=in",
     },
   ],
   address: {

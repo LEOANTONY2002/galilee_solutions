@@ -36,9 +36,7 @@ const Header = () => {
     <>
       <section className="Header">
         {width > 600 ? (
-          <section
-            className={show ? "HeaderDesktop desktopShow" : "HeaderDesktop"}
-          >
+          <section className={"HeaderDesktop"}>
             <Link to={"/"} className="logo">
               <img src={Logo} alt="" />
             </Link>
@@ -91,9 +89,7 @@ const Header = () => {
             </div>
           </section>
         ) : (
-          <section
-            className={show ? "HeaderMobile mobileShow" : "HeaderMobile"}
-          >
+          <section className={"HeaderMobile"}>
             <Link to={"/"} className="logo">
               <img src={Logo} alt="" />
             </Link>
