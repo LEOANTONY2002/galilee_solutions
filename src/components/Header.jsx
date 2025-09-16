@@ -4,6 +4,8 @@ import "./Header.scss";
 import Logo from "../assets/icons/logoFull.png";
 import Menu from "../assets/icons/Menu.png";
 import Close from "../assets/icons/Close.png";
+import Phone from "../assets/icons/PhoneHeader.png";
+import Email from "../assets/icons/EmailHeader.png";
 
 import { Link, useLocation } from "react-router-dom";
 import { useWindowWidth } from "@react-hook/window-size";
@@ -86,6 +88,14 @@ const Header = () => {
               >
                 Contact
               </Link>
+            </div>
+            <div className="contact_info">
+              <a href="tel:+919811022222">
+                <img src={Phone} width={20} height={20} alt="" />
+              </a>
+              <a href="mailto:info@galileesolutions.in">
+                <img src={Email} width={20} height={20} alt="" />
+              </a>
             </div>
           </section>
         ) : (
